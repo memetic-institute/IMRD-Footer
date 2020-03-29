@@ -13,7 +13,12 @@ module.exports = {
                 test: /\.js$/,
                 include: __dirname,
                 exclude: /(node_modules|dist)/,
-                use: 'babel-loader'
+                use: {
+                    loader: 'babel-loader',
+                    options: {
+                        presets: ['env']
+                    }
+                }
             }
         ]
     },
