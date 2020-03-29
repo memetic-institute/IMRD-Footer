@@ -4,17 +4,17 @@ Standard footer React component for IMRD's projects
 
 By the <a href="https://memetic.institute" target="_blank">Institute for Memetic Research & Development</a>
 
-[![screenshot.png]](Footer)
+[![Screenshot](screenshot.png)](index.js)
 
 ---
 
 ## Properties
 
-| Property   | Type     |
-| ---------- | -------- |
-| `homepage` | `string` |
-| `tweet`    | `shape`  |
-| `items`    | `array`  |
+| Property | Type     |
+| -------- | -------- |
+| homepage | `string` |
+| tweet    | `shape`  |
+| items    | `array`  |
 
 See below:
 
