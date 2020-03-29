@@ -15,8 +15,6 @@
         "imrd"
     ],
     "main": "dist/index.js",
-    "module": "dist/es/index.js",
-    "type": "module",
     "scripts": {
         "clean": "rimraf dist/*",
         "build": "npm-run-all clean build:dist",
