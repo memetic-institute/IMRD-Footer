@@ -14,7 +14,7 @@
         "donate",
         "imrd"
     ],
-    "main": "dist/index.js",
+    "main": "src/index.js",
     "scripts": {
         "clean": "rimraf dist/*",
         "build": "npm-run-all clean build:dist",
