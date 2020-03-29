@@ -23,6 +23,7 @@ Footer.propTypes = {
     homepage: string,
     tweet: shape({
         url: string,
+        handle: string,
         text: string,
         hashtags: arrayOf(string)
     }),
