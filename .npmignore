@@ -1,9 +1,9 @@
-.github
-.npmignore
+.github/
 coverage/
+.npmignore
 .DS_Store
 *.log
 *.log*
 README.md
 screenshot.png
-webpack.config.json
+webpack.config.js
