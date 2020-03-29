@@ -51,6 +51,7 @@ const Link = styled.a`
     color: ${black};
     font-weight: bold;
     text-align: center;
+    min-height: 38px;
     padding: 0.75em 1em;
     height: 100%;
     width: 100%;
